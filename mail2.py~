@@ -4,6 +4,7 @@ from smtplib import SMTP
 from smtplib import SMTP_SSL
 
 
+# from poolhouse.tools.logger import log
 class Log(object):
     @classmethod
     def debug(cls, string):
